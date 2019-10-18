@@ -69,7 +69,7 @@ def scanAppsCSV(file_name, iq_url, auth):
 			app["link"] = report_url
 			results.writerow(app)
 			c+=1
-			if c ==1: break
+			#if c ==1: break
 		print(f'Processed {c} applications.')
 
 def get_IQ_CLI_Version(iq_url):
